@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PronoClean - Best Cleaning Products Manufacturer in Hardoi | Bane Kuian Beniganj</title>
+  <meta name="description" content="PronoClean - Hardoi ki best cleaning products company. High-quality Toilet Cleaner 500ml aur affordable cleaning solutions. Order now on WhatsApp: 7307151326. Bane Kuian, Beniganj, Uttar Pradesh." />
+  <meta name="keywords" content="cleaning products, toilet cleaner, PronoClean, Hardoi cleaning brand, Beniganj, cleaning products manufacturer, toilet cleaner 500ml, Uttar Pradesh cleaning brand, affordable cleaning products" />
+  <meta name="author" content="Shaurya Shukla - PronoClean" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="PronoClean - Best Cleaning Products in Hardoi, UP" />
+  <meta property="og:description" content="High-quality, affordable cleaning products from Hardoi, Uttar Pradesh. Toilet Cleaner 500ml available. Order on WhatsApp!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="hi_IN" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PronoClean - Cleaning Products Hardoi" />
+  <meta name="twitter:description" content="Best Cleaning Products Manufacturer in Bane Kuian, Beniganj, Hardoi UP." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', 'Segoe UI', sans-serif; background: #fff; color: #1a2e1a; -webkit-font-smoothing: antialiased; }
+    a { text-decoration: none; }
+    ul { list-style: none; }
+
+    /* ── NAVBAR ── */
+    #navbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      padding: 0 1.5rem;
+      transition: background 0.35s, box-shadow 0.35s, backdrop-filter 0.35s;
+    }
+    #navbar.scrolled {
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 2px 20px rgba(22,101,52,0.12);
+    }
+    .nav-inner {
+      max-width: 1100px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px;
+    }
+    .nav-logo { font-size: 1.4rem; font-weight: 900; color: #15803d; letter-spacing: -0.5px; }
+    .nav-logo span { color: #22c55e; }
+    #navbar.scrolled .nav-logo { color: #14532d; }
+    .nav-links { display: flex; align-items: center; gap: 2rem; }
+    .nav-links a { font-weight: 600; font-size: 0.95rem; color: #fff; transition: color 0.2s; }
+    #navbar.scrolled .nav-links a { color: #166534; }
+    .nav-links a:hover { color: #4ade80; }
+    #navbar.scrolled .nav-links a:hover { color: #15803d; }
+    .nav-wa {
+      background: #25d366; color: #fff !important;
+      padding: 0.5rem 1.2rem; border-radius: 2rem;
+      font-weight: 700 !important; font-size: 0.9rem;
+      transition: transform 0.2s !important;
+    }
+    .nav-wa:hover { transform: scale(1.05); opacity: 0.92; }
+    .hamburger {
+      display: none; background: none; border: none; cursor: pointer;
+      color: #fff; padding: 4px;
+    }
+    #navbar.scrolled .hamburger { color: #14532d; }
+    .mobile-menu {
+      display: none; background: #fff;
+      padding: 1rem 1.5rem;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+    }
+    .mobile-menu a {
+      display: block; color: #166534; font-weight: 600;
+      font-size: 1rem; padding: 0.65rem 0;
+      border-bottom: 1px solid #f0fdf4;
+    }
+    .mobile-menu a:last-child { border-bottom: none; }
+    .mobile-wa-btn {
+      display: block; background: #25d366; color: #fff !important;
+      text-align: center; padding: 0.75rem 1.2rem;
+      border-radius: 2rem; font-weight: 700; margin-top: 0.75rem;
+    }
+
+    /* ── HERO ── */
+    #hero {
+      background: linear-gradient(135deg, #14532d 0%, #166534 40%, #15803d 70%, #16a34a 100%);
+      min-height: 100vh;
+      display: flex; align-items: center; justify-content: center;
+      text-align: center;
+      padding: 7rem 1.5rem 5rem;
+      position: relative; overflow: hidden;
+    }
+    .hero-glow {
+      position: absolute; inset: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse at 30% 60%, rgba(34,197,94,0.18) 0%, transparent 60%),
+        radial-gradient(ellipse at 70% 30%, rgba(255,255,255,0.06) 0%, transparent 50%);
+    }
+    .hero-inner { position: relative; z-index: 1; max-width: 700px; }
+    .hero-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 2rem; padding: 0.4rem 1.2rem;
+      color: #bbf7d0; font-size: 0.85rem; font-weight: 600;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+    .hero-title {
+      font-size: clamp(2.8rem, 7vw, 5rem);
+      font-weight: 900; color: #fff;
+      line-height: 1.1; margin-bottom: 1rem;
+      letter-spacing: -1px;
+    }
+    .hero-title span { color: #4ade80; }
+    .hero-tagline {
+      font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+      color: #dcfce7; font-weight: 500;
+      margin-bottom: 2.5rem; line-height: 1.55;
+    }
+    .hero-tagline span { color: #86efac; }
+    .hero-wa-btn {
+      display: inline-flex; align-items: center; gap: 0.75rem;
+      background: #25d366; color: #fff;
+      padding: 1rem 2.5rem; border-radius: 3rem;
+      font-weight: 800; font-size: 1.15rem;
+      box-shadow: 0 8px 30px rgba(37,211,102,0.45);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .hero-wa-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 40px rgba(37,211,102,0.58);
+    }
+    .hero-stats {
+      margin-top: 3rem;
+      display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;
+    }
+    .hero-stat-num { font-size: 1.6rem; font-weight: 800; color: #4ade80; }
+    .hero-stat-lbl { font-size: 0.82rem; color: #bbf7d0; font-weight: 500; }
+
+    /* ── SECTION COMMON ── */
+    .section { padding: 5rem 1.5rem; }
+    .section-inner { max-width: 1100px; margin: 0 auto; }
+    .section-badge {
+      display: inline-block;
+      background: #dcfce7; color: #166534;
+      padding: 0.35rem 1rem; border-radius: 2rem;
+      font-size: 0.82rem; font-weight: 700;
+      letter-spacing: 0.06em; text-transform: uppercase;
+    }
+    .section-title {
+      font-size: clamp(1.8rem, 4vw, 2.7rem);
+      font-weight: 800; color: #14532d;
+      margin: 0.75rem 0 0.5rem; letter-spacing: -0.5px;
+    }
+    .section-sub { color: #4b7c63; font-size: 1.05rem; }
+    .section-head { text-align: center; margin-bottom: 3rem; }
+
+    /* ── PRODUCTS ── */
+    #products { background: #f0fdf4; }
+    .product-card {
+      background: #fff; border-radius: 1.5rem;
+      box-shadow: 0 4px 30px rgba(21,128,61,0.12);
+      border: 1px solid #bbf7d0;
+      padding: 2.5rem; max-width: 420px;
+      width: 100%; margin: 0 auto;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 16px 50px rgba(21,128,61,0.18);
+    }
+    .product-icon {
+      width: 80px; height: 80px;
+      background: linear-gradient(135deg, #15803d, #22c55e);
+      border-radius: 1.2rem;
+      display: flex; align-items: center; justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+    .product-badge {
+      display: inline-block;
+      background: #dcfce7; color: #15803d;
+      padding: 0.25rem 0.8rem; border-radius: 1rem;
+      font-size: 0.78rem; font-weight: 700; margin-bottom: 0.75rem;
+    }
+    .product-name { font-size: 1.5rem; font-weight: 800; color: #14532d; margin-bottom: 0.25rem; }
+    .product-size { font-size: 0.95rem; color: #15803d; font-weight: 600; margin-bottom: 0.75rem; }
+    .product-desc { color: #4b7c63; line-height: 1.75; margin-bottom: 1.5rem; font-size: 0.97rem; }
+    .product-features { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1.75rem; }
+    .product-feature { display: flex; align-items: center; gap: 0.6rem; color: #374151; font-size: 0.92rem; }
+    .product-feature .check { color: #15803d; font-weight: 700; }
+    .product-order-btn {
+      display: flex; align-items: center; justify-content: center; gap: 0.6rem;
+      background: #25d366; color: #fff;
+      padding: 0.85rem 1.5rem; border-radius: 0.75rem;
+      font-weight: 700; font-size: 1rem;
+      transition: opacity 0.2s;
+    }
+    .product-order-btn:hover { opacity: 0.9; }
+
+    /* ── ABOUT ── */
+    #about { background: #fff; }
+    .about-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 4rem; align-items: center;
+    }
+    .about-text p { color: #374151; line-height: 1.8; font-size: 1.05rem; margin-bottom: 1.25rem; }
+    .about-text p:last-child { color: #6b7280; font-size: 0.97rem; }
+    .about-cards { display: flex; flex-direction: column; gap: 1.25rem; }
+    .about-card {
+      display: flex; gap: 1rem; align-items: flex-start;
+      background: #f0fdf4; border: 1px solid #bbf7d0;
+      border-radius: 1rem; padding: 1.25rem;
+    }
+    .about-card-icon { font-size: 1.8rem; flex-shrink: 0; }
+    .about-card-title { font-weight: 700; color: #14532d; margin-bottom: 0.25rem; font-size: 0.97rem; }
+    .about-card-desc { color: #4b7c63; font-size: 0.9rem; line-height: 1.55; }
+
+    /* ── FOUNDER ── */
+    #founder {
+      background: linear-gradient(135deg, #14532d 0%, #15803d 100%);
+      padding: 5rem 1.5rem; text-align: center;
+    }
+    .founder-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.15); color: #bbf7d0;
+      padding: 0.35rem 1rem; border-radius: 2rem;
+      font-size: 0.82rem; font-weight: 700;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+    .founder-avatar {
+      width: 100px; height: 100px;
+      background: linear-gradient(135deg, #22c55e, #4ade80);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 1.5rem;
+      font-size: 2.2rem; font-weight: 900; color: #14532d;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    }
+    .founder-name {
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      font-weight: 800; color: #fff; margin-bottom: 0.4rem;
+    }
+    .founder-role { color: #86efac; font-weight: 600; font-size: 1.1rem; margin-bottom: 1.5rem; }
+    .founder-bio {
+      color: #dcfce7; line-height: 1.8; font-size: 1rem;
+      max-width: 520px; margin: 0 auto 2rem;
+    }
+    .founder-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .founder-btn {
+      display: inline-flex; align-items: center; gap: 0.6rem;
+      padding: 0.85rem 2rem; border-radius: 0.75rem;
+      font-weight: 700; font-size: 1.05rem;
+    }
+    .founder-btn-outline {
+      background: rgba(255,255,255,0.12);
+      border: 2px solid rgba(255,255,255,0.25); color: #fff;
+    }
+    .founder-btn-wa { background: #25d366; color: #fff; }
+
+    /* ── REVIEWS ── */
+    #reviews { background: #f0fdf4; }
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .review-card {
+      background: #fff; border-radius: 1.25rem;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(21,128,61,0.10);
+      border: 1px solid #bbf7d0;
+      transition: transform 0.2s;
+    }
+    .review-card:hover { transform: translateY(-4px); }
+    .stars { display: flex; gap: 2px; margin-bottom: 1rem; }
+    .review-text { color: #374151; line-height: 1.75; margin-bottom: 1.5rem; font-size: 0.97rem; }
+    .review-author { display: flex; align-items: center; gap: 0.75rem; }
+    .review-avatar {
+      width: 44px; height: 44px;
+      background: linear-gradient(135deg, #15803d, #22c55e);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff; font-weight: 800; font-size: 1rem;
+      flex-shrink: 0;
+    }
+    .review-name { font-weight: 700; color: #14532d; font-size: 0.95rem; }
+    .review-loc { color: #6b7280; font-size: 0.82rem; }
+
+    /* ── MAP ── */
+    #map-section { background: #fff; padding: 5rem 1.5rem; }
+    .map-wrap {
+      border-radius: 1.5rem; overflow: hidden;
+      box-shadow: 0 8px 40px rgba(21,128,61,0.14);
+      border: 2px solid #bbf7d0;
+    }
+    .map-link {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: #14532d; color: #fff;
+      padding: 0.75rem 1.75rem; border-radius: 0.75rem;
+      font-weight: 700; font-size: 0.95rem;
+      margin-top: 1.5rem;
+      transition: opacity 0.2s;
+    }
+    .map-link:hover { opacity: 0.88; }
+
+    /* ── CONTACT ── */
+    #contact { background: #f0fdf4; }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+    .contact-card {
+      background: #fff; border-radius: 1.25rem;
+      padding: 2rem; text-align: center;
+      box-shadow: 0 4px 20px rgba(21,128,61,0.09);
+      border: 1px solid #bbf7d0;
+    }
+    .contact-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+    .contact-title { font-weight: 700; color: #14532d; margin-bottom: 0.75rem; font-size: 1.1rem; }
+    .contact-line { color: #374151; font-size: 0.95rem; margin: 0.15rem 0; }
+    .contact-link {
+      display: inline-block; margin-top: 1rem;
+      background: #dcfce7; color: #15803d;
+      padding: 0.45rem 1.2rem; border-radius: 0.6rem;
+      font-weight: 700; font-size: 0.88rem;
+      transition: background 0.2s;
+    }
+    .contact-link:hover { background: #bbf7d0; }
+
+    /* ── SOCIAL ── */
+    #social {
+      background: #14532d;
+      padding: 3rem 1.5rem; text-align: center;
+    }
+    .social-title { color: #fff; font-weight: 800; font-size: 1.5rem; margin-bottom: 0.4rem; }
+    .social-sub { color: #86efac; margin-bottom: 2rem; }
+    .social-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .social-btn {
+      display: inline-flex; align-items: center; gap: 0.6rem;
+      color: #fff; padding: 0.8rem 1.75rem;
+      border-radius: 0.75rem; font-weight: 700; font-size: 1rem;
+      transition: opacity 0.2s;
+    }
+    .social-btn:hover { opacity: 0.88; }
+    .btn-instagram {
+      background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    }
+    .btn-facebook { background: #1877F2; }
+
+    /* ── FOOTER ── */
+    footer { background: #0a2e1a; color: #bbf7d0; padding: 3rem 1.5rem 1.5rem; }
+    .footer-grid {
+      max-width: 1100px; margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 2.5rem; margin-bottom: 2.5rem;
+    }
+    .footer-logo { font-size: 1.6rem; font-weight: 900; color: #4ade80; margin-bottom: 0.75rem; }
+    .footer-logo span { color: #fff; }
+    .footer-desc { color: #86efac; font-size: 0.9rem; line-height: 1.7; }
+    .footer-col-title { color: #fff; font-weight: 700; margin-bottom: 1rem; font-size: 1rem; }
+    .footer-links a {
+      display: block; color: #86efac; font-size: 0.9rem;
+      margin-bottom: 0.5rem; transition: color 0.2s;
+    }
+    .footer-links a:hover { color: #4ade80; }
+    .footer-contact p { font-size: 0.9rem; margin-bottom: 0.4rem; color: #86efac; }
+    .footer-social { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.25rem; }
+    .footer-social-btn {
+      display: inline-block;
+      background: rgba(255,255,255,0.1); color: #fff;
+      padding: 0.45rem 1rem; border-radius: 0.5rem;
+      font-size: 0.85rem; font-weight: 600;
+      transition: background 0.2s;
+    }
+    .footer-social-btn:hover { background: rgba(255,255,255,0.18); }
+    .footer-bottom {
+      max-width: 1100px; margin: 0 auto;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 1.25rem; text-align: center;
+      color: #4b7c63; font-size: 0.85rem;
+    }
+
+    /* ── FLOATING WHATSAPP ── */
+    #float-wa {
+      position: fixed; bottom: 1.75rem; right: 1.75rem; z-index: 9999;
+      width: 60px; height: 60px;
+      background: #25d366; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 6px 25px rgba(37,211,102,0.55);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    #float-wa:hover {
+      transform: scale(1.12);
+      box-shadow: 0 10px 35px rgba(37,211,102,0.70);
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hamburger { display: block; }
+      .mobile-menu.open { display: block; }
+      .hero-stats { gap: 1.25rem; }
+      .about-grid { gap: 2rem; }
+      .founder-btns { flex-direction: column; align-items: center; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 480px) {
+      .footer-grid { grid-template-columns: 1fr; }
+      .section { padding: 3.5rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── NAVBAR ── -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">Prono<span>Clean</span></a>
+    <div class="nav-links">
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#founder">Founder</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+      <a href="https://wa.me/917307151326?text=Hello%20PronoClean%2C%20mujhe%20aapke%20product%20ke%20baare%20me%20jankari%20chahiye" target="_blank" rel="noopener" class="nav-wa">WhatsApp</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <svg id="ham-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+        <path d="M3 6h18M3 12h18M3 18h18"/>
+      </svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#products" onclick="closeMenu()">Products</a>
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#founder" onclick="closeMenu()">Founder</a>
+    <a href="#reviews" onclick="closeMenu()">Reviews</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+    <a href="https://wa.me/917307151326?text=Hello%20PronoClean%2C%20mujhe%20aapke%20product%20ke%20baare%20me%20jankari%20chahiye" target="_blank" rel="noopener" class="mobile-wa-btn">WhatsApp Us</a>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<section id="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
+    <div class="hero-badge">Since April 2026 &middot; Made in Hardoi</div>
+    <h1 class="hero-title">Prono<span>Clean</span></h1>
+    <p class="hero-tagline">
+      Best Cleaning Products Manufacturer<br>
+      <span>in Bane Kuian, Beniganj</span>
+    </p>
+    <a href="https://wa.me/917307151326?text=Hello%20PronoClean%2C%20mujhe%20aapke%20product%20ke%20baare%20me%20jankari%20chahiye"
+       target="_blank" rel="noopener" class="hero-wa-btn">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+      </svg>
+      Order on WhatsApp
+    </a>
+    <div class="hero-stats">
+      <div><div class="hero-stat-num">100%</div><div class="hero-stat-lbl">Quality Assured</div></div>
+      <div><div class="hero-stat-num">Affordable</div><div class="hero-stat-lbl">Best Prices</div></div>
+      <div><div class="hero-stat-num">Local</div><div class="hero-stat-lbl">Made in Hardoi</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PRODUCTS ── -->
+<section id="products" class="section">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="section-badge">Our Products</span>
+      <h2 class="section-title">Premium Cleaning Solutions</h2>
+      <p class="section-sub">High-quality products crafted for spotless results, every time.</p>
+    </div>
+    <div class="product-card">
+      <div class="product-icon">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
+          <path d="M9 3H15L18 8L15 13H9L6 8L9 3Z" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/>
+          <path d="M12 13V21" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M8 21H16" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M9 8H15" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="product-badge">Best Seller</div>
+      <h3 class="product-name">Toilet Cleaner</h3>
+      <div class="product-size">500ml</div>
+      <p class="product-desc">PronoClean Toilet Cleaner ek powerful formula hai jo toilet ki deewar se lekar nali tak ki saari gandagi, daag aur bacteria ko ek hi baar mein saaf kar deta hai. Iska strong yet safe formula aapke bathroom ko fresh aur gleaming rakhta hai.</p>
+      <ul class="product-features">
+        <li class="product-feature"><span class="check">✓</span> Powerful antibacterial formula</li>
+        <li class="product-feature"><span class="check">✓</span> Removes tough stains instantly</li>
+        <li class="product-feature"><span class="check">✓</span> Fresh fragrance, long-lasting</li>
+        <li class="product-feature"><span class="check">✓</span> Safe for all toilet surfaces</li>
+      </ul>
+      <a href="https://wa.me/917307151326?text=Hello%20PronoClean%2C%20mujhe%20aapke%20product%20ke%20baare%20me%20jankari%20chahiye"
+         target="_blank" rel="noopener" class="product-order-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+        Order Now on WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section id="about" class="section">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-text">
+        <span class="section-badge">About Us</span>
+        <h2 class="section-title">Cleaning India,<br>One Home at a Time</h2>
+        <p>PronoClean ek naya aur tezi se badhne wala cleaning products brand hai jo bina kisi external funding ke shuru kiya gaya hai. Iska shubharambh 1 April 2026 ko hua. Hamara mission high-quality aur affordable cleaning solutions provide karna hai.</p>
+        <p>Hum Hardoi, Uttar Pradesh se aane wale ek grassroots brand hain jo apne local community ko behtar cleaning products dena chahte hain — bina compromise on quality ke.</p>
+      </div>
+      <div class="about-cards">
+        <div class="about-card">
+          <div class="about-card-icon">🌱</div>
+          <div><div class="about-card-title">Started April 2026</div><div class="about-card-desc">A brand-new venture launched with passion and a vision for cleanliness.</div></div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">💡</div>
+          <div><div class="about-card-title">Self-Funded</div><div class="about-card-desc">Built independently, no external funding — pure dedication and hard work.</div></div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">🏆</div>
+          <div><div class="about-card-title">High Quality</div><div class="about-card-desc">Every product meets strict quality standards before reaching your home.</div></div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon">💰</div>
+          <div><div class="about-card-title">Affordable Pricing</div><div class="about-card-desc">Premium cleaning at prices that every household can afford.</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOUNDER ── -->
+<section id="founder">
+  <div style="max-width:700px;margin:0 auto;">
+    <div class="founder-badge">Founder &amp; CEO</div>
+    <div class="founder-avatar">SS</div>
+    <h2 class="founder-name">Shaurya Shukla</h2>
+    <p class="founder-role">Founder &amp; CEO, PronoClean</p>
+    <p class="founder-bio">Ek young entrepreneur hain jo apne sapne ko saakaar karte hue PronoClean ko launch kiya. Unka vision hai ki har ghar mein ek trusted aur affordable cleaning brand ho — jo local ho, par quality mein global ho.</p>
+    <div class="founder-btns">
+      <a href="tel:7307151326" class="founder-btn founder-btn-outline">📞 +91 7307151326</a>
+      <a href="https://wa.me/917307151326?text=Hello%20PronoClean%2C%20mujhe%20aapke%20product%20ke%20baare%20me%20jankari%20chahiye"
+         target="_blank" rel="noopener" class="founder-btn founder-btn-wa">💬 WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── REVIEWS ── -->
+<section id="reviews" class="section">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="section-badge">Customer Reviews</span>
+      <h2 class="section-title">What Our Customers Say</h2>
+      <p class="section-sub">Hamare customers ki genuine experiences</p>
+    </div>
+    <div class="reviews-grid">
+
+      <div class="review-card">
+        <div class="stars">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        </div>
+        <p class="review-text">"PronoClean ka Toilet Cleaner bahut accha hai! Bathroom bilkul chamchamata hai. Price bhi kaafi affordable hai. Highly recommend karta hoon."</p>
+        <div class="review-author">
+          <div class="review-avatar">R</div>
+          <div><div class="review-name">Ramesh Kumar</div><div class="review-loc">Hardoi</div></div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        </div>
+        <p class="review-text">"Bahut acha product hai! Ek hi baar mein saari gandagi saaf ho jaati hai. Local brand hone ke baad bhi quality top class hai. Shaurya ji ka shukriya!"</p>
+        <div class="review-author">
+          <div class="review-avatar">S</div>
+          <div><div class="review-name">Sunita Devi</div><div class="review-loc">Beniganj</div></div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="stars">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#f59e0b"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/></svg>
+        </div>
+        <p class="review-text">"Mujhe pehle shak tha lekin istemal ke baad dil khush ho gaya. 500ml bottle kafi time chalti hai. Ab doosra koi brand nahi lena. Best value for money!"</p>
+        <div class="review-author">
+          <div class="review-avatar">M</div>
+          <div><div class="review-name">Mahendra Singh</div><div class="review-loc">Uttar Pradesh</div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── MAP ── -->
+<section id="map-section">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="section-badge">Find Us</span>
+      <h2 class="section-title">Our Location</h2>
+      <p class="section-sub">Bane Kuian, Beniganj, Hardoi, Uttar Pradesh</p>
+    </div>
+    <div class="map-wrap">
+      <iframe
+        src="https://maps.google.com/maps?q=Bane+Kuian+Beniganj+Hardoi+Uttar+Pradesh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="100%" height="400" style="border:0;display:block;"
+        allowfullscreen loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="PronoClean Location"></iframe>
+    </div>
+    <div style="text-align:center;">
+      <a href="https://maps.app.goo.gl/2k7UtFmEP66a6oYn7" target="_blank" rel="noopener" class="map-link">
+        📍 Open in Google Maps
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact" class="section">
+  <div class="section-inner">
+    <div class="section-head">
+      <span class="section-badge">Contact Us</span>
+      <h2 class="section-title">Get in Touch</h2>
+      <p class="section-sub">Orders aur inquiries ke liye contact karein</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="contact-icon">📍</div>
+        <h3 class="contact-title">Address</h3>
+        <p class="contact-line">Bane Kuian, Beniganj</p>
+        <p class="contact-line">Hardoi, Uttar Pradesh</p>
+        <p class="contact-line">PIN: 241304</p>
+        <a href="https://maps.app.goo.gl/2k7UtFmEP66a6oYn7" target="_blank" rel="noopener" class="contact-link">Get Directions</a>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">📞</div>
+        <h3 class="contact-title">Phone</h3>
+        <p class="contact-line">+91 7307151326</p>
+        <a href="tel:7307151326" class="contact-link">Call Now</a>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">💬</div>
+        <h3 class="contact-title">WhatsApp</h3>
+        <p class="contact-line">+91 7307151326</p>
+        <p class="contact-line">Orders &amp; Inquiries</p>
+        <a href="https://wa.me/917307151326?text=Hello%20PronoClean%2C%20mujhe%20aapke%20product%20ke%20baare%20me%20jankari%20chahiye"
+           target="_blank" rel="noopener" class="contact-link">Chat on WhatsApp</a>
+      </div>
+      <div class="contact-card">
+        <div class="contact-icon">🕐</div>
+        <h3 class="contact-title">Working Hours</h3>
+        <p class="contact-line">Mon – Sat: 9 AM – 7 PM</p>
+        <p class="contact-line">Sunday: On Call</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SOCIAL ── -->
+<section id="social">
+  <h3 class="social-title">Follow Us</h3>
+  <p class="social-sub">Stay updated with new products and offers</p>
+  <div class="social-btns">
+    <a href="https://www.instagram.com/pronoclean?igsh=Z3J5aG80ZjNoeGFr" target="_blank" rel="noopener" class="social-btn btn-instagram">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+      </svg>
+      Instagram
+    </a>
+    <a href="https://www.facebook.com/share/1Hq9YvhpyH/" target="_blank" rel="noopener" class="social-btn btn-facebook">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+      </svg>
+      Facebook
+    </a>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo">Prono<span>Clean</span></div>
+      <p class="footer-desc">Best Cleaning Products Manufacturer in Bane Kuian, Beniganj, Hardoi, Uttar Pradesh.</p>
+    </div>
+    <div>
+      <div class="footer-col-title">Quick Links</div>
+      <div class="footer-links">
+        <a href="#products">Products</a>
+        <a href="#about">About Us</a>
+        <a href="#founder">Founder</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Contact</div>
+      <div class="footer-contact">
+        <p>📍 Bane Kuian, Beniganj</p>
+        <p>Hardoi, UP 241304</p>
+        <p>📞 +91 7307151326</p>
+      </div>
+    </div>
+    <div>
+      <div class="footer-col-title">Follow Us</div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/pronoclean?igsh=Z3J5aG80ZjNoeGFr" target="_blank" rel="noopener" class="footer-social-btn">Instagram</a>
+        <a href="https://www.facebook.com/share/1Hq9YvhpyH/" target="_blank" rel="noopener" class="footer-social-btn">Facebook</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2026 PronoClean | Design by SHAURYA
+  </div>
+</footer>
+
+<!-- ── FLOATING WHATSAPP ── -->
+<a id="float-wa"
+   href="https://wa.me/917307151326?text=Hello%20PronoClean%2C%20mujhe%20aapke%20product%20ke%20baare%20me%20jankari%20chahiye"
+   target="_blank" rel="noopener" title="Chat on WhatsApp">
+  <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+</a>
+
+<script>
+  // Navbar scroll effect
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  });
+
+  // Mobile menu toggle
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+  hamburger.addEventListener('click', function () {
+    mobileMenu.classList.toggle('open');
+  });
+
+  function closeMenu() {
+    mobileMenu.classList.remove('open');
+  }
+</script>
+</body>
+</html>
